@@ -1,0 +1,34 @@
+{
+  "title": "anilcandev",
+  "name": "Anılcan İpsalalı",
+  "ascii": "anilcandev",
+  "social": {
+    "github": "anilcanipsalali",
+    "linkedin": "anilcanipsalali"
+  },
+  "email": "anilcan.ipsalali@gmail.com",
+  "repo": "https://github.com/anilcanipsalali",
+  "ps1_hostname": "anilcandev",
+  "ps1_username": "guest",
+  "resume_url": "https://www.linkedin.com/in/anilcanipsalali/",
+  "colors": {
+    "light": {
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}

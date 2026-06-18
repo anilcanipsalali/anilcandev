@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+dist/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+*.log
+*.gz
+
+# Package manager
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Java / Maven
+*.class
+*.py[cod]
+*.jar
+target/
+TEST*.xml
