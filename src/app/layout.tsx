@@ -2,7 +2,7 @@ import type {Metadata, Viewport} from 'next';
 import '../styles/global.css';
 
 export const metadata: Metadata = {
-    title: 'anilcandev',
+    title: 'anilcan.dev',
     description:
         'Anılcan İpsalalı – terminal-themed personal portfolio website.',
     icons: {
