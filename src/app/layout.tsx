@@ -16,7 +16,9 @@ export const viewport: Viewport = {
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en" suppressHydrationWarning>
-        <body>{children}</body>
+        <body className="bg-light-background dark:bg-dark-background text-light-foreground dark:text-dark-foreground">
+          {children}
+        </body>
         </html>
     );
 }

@@ -9,12 +9,6 @@ export const getProjects = async () => {
   return res.json();
 };
 
-export const getReadme = async () => {
-  const res = await fetch(config.readmeUrl);
-  if (!res.ok) throw new Error(`README fetch error: ${res.status}`);
-  return res.text();
-};
-
 export const getWeather = async (city: string): Promise<string> => {
   try {
     const res = await fetch(`https://wttr.in/${city}?ATm`);

@@ -20,8 +20,6 @@
 
 `anilcandev` is a browser-based terminal emulator that serves as my personal portfolio. Instead of a traditional layout, visitors interact with the site through terminal commands — asking for my bio, projects, resume, and more.
 
-Inspired by [LiveTerm](https://github.com/Cveinnt/LiveTerm), rebuilt from the ground up with modern tooling.
-
 ## Features
 
 - **Terminal UI** — fully functional command-line interface in the browser
@@ -51,7 +49,6 @@ Inspired by [LiveTerm](https://github.com/Cveinnt/LiveTerm), rebuilt from the gr
 | `google <query>` | Search Google |
 | `weather <city>` | Show weather for a city |
 | `quote` | Display a random quote |
-| `readme` | Show GitHub README |
 | `whoami` | Display current user |
 | `echo <text>` | Print text |
 | `ls` | List (fake) directories |
