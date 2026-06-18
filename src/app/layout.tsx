@@ -1,26 +1,22 @@
-import type { Metadata, Viewport } from 'next';
+import type {Metadata, Viewport} from 'next';
 import '../styles/global.css';
 
 export const metadata: Metadata = {
-  title: 'anilcandev',
-  description:
-    'Anılcan İpsalalı – terminal-themed personal portfolio website.',
+    title: 'anilcandev',
+    description:
+        'Anılcan İpsalalı – terminal-themed personal portfolio website.',
 };
 
 export const viewport: Viewport = {
-  initialScale: 1,
-  width: 'device-width',
-  maximumScale: 1,
+    initialScale: 1,
+    width: 'device-width',
+    maximumScale: 1,
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
+    return (
+        <html lang="en" suppressHydrationWarning>
+        <body>{children}</body>
+        </html>
+    );
 }

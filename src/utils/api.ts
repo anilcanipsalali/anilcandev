@@ -28,10 +28,7 @@ export const getWeather = async (city: string): Promise<string> => {
 };
 
 export const getQuote = async (): Promise<{ quote: string }> => {
-  const res = await fetch('https://api.quotable.io/random');
+  const res = await fetch('/api/quote');
   if (!res.ok) throw new Error(`Quote API error: ${res.status}`);
-  const data = await res.json();
-  return {
-    quote: `"${data.content}" — ${data.author}`,
-  };
+  return res.json();
 };
