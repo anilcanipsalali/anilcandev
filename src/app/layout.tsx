@@ -5,6 +5,12 @@ export const metadata: Metadata = {
     title: 'anilcandev',
     description:
         'Anılcan İpsalalı – terminal-themed personal portfolio website.',
+    icons: {
+        icon: '/assets/favicon.ico',
+        apple: '/assets/apple-icon.png',
+        shortcut: '/assets/favicon-16x16.png',
+    },
+    manifest: '/assets/manifest.json',
 };
 
 export const viewport: Viewport = {
