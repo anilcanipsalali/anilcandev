@@ -59,27 +59,7 @@
       "red": "#ff5555"
     }
   },
-  "Nord": {
-    "light": {
-      "background": "#E5E9F0",
-      "foreground": "#2E3440",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
-    },
-    "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
-    }
-  },
-  "Monokai": {
+  "monokai": {
     "light": {
       "background": "#F8F8F2",
       "foreground": "#272822",
@@ -99,7 +79,7 @@
       "red": "#F92672"
     }
   },
-  "Mocha": {
+  "mocha": {
     "light": {
       "background": "#D0C8C6",
       "foreground": "#3B3228",
@@ -119,7 +99,7 @@
       "red": "#CB6077"
     }
   },
-  "Solarized": {
+  "solarized": {
     "light": {
       "background": "#FDF6E3",
       "foreground": "#586E75",
@@ -139,7 +119,7 @@
       "red": "#DC322F"
     }
   },
-  "Paraiso": {
+  "paraiso": {
     "light": {
       "background": "#A39E9B",
       "foreground": "#2F1E2E",
@@ -157,6 +137,186 @@
       "gray": "#815BA4",
       "blue": "#06B6EF",
       "red": "#EF6155"
+    }
+  },
+  "nord": {
+    "light": {
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  },
+  "catppuccin": {
+    "light": {
+      "background": "#eff1f5",
+      "foreground": "#4c4f69",
+      "yellow": "#df8e1d",
+      "green": "#40a02b",
+      "gray": "#9ca0b0",
+      "blue": "#1e66f5",
+      "red": "#d20f39"
+    },
+    "dark": {
+      "background": "#24273a",
+      "foreground": "#cad3f5",
+      "yellow": "#eed49f",
+      "green": "#a6da95",
+      "gray": "#5b6078",
+      "blue": "#8aadf4",
+      "red": "#ed8796"
+    }
+  },
+  "tokyonight": {
+    "light": {
+      "background": "#e1e2e7",
+      "foreground": "#3760bf",
+      "yellow": "#8c6c3e",
+      "green": "#587539",
+      "gray": "#848cb5",
+      "blue": "#2e7de9",
+      "red": "#f52a65"
+    },
+    "dark": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5",
+      "yellow": "#e0af68",
+      "green": "#9ece6a",
+      "gray": "#565f89",
+      "blue": "#7aa2f7",
+      "red": "#f7768e"
+    }
+  },
+  "synthwave": {
+    "light": {
+      "background": "#2b213a",
+      "foreground": "#b6b1b1",
+      "yellow": "#f97e72",
+      "green": "#72f1b8",
+      "gray": "#848bbd",
+      "blue": "#2ee2fa",
+      "red": "#f52e6d"
+    },
+    "dark": {
+      "background": "#262335",
+      "foreground": "#ff7edb",
+      "yellow": "#f97e72",
+      "green": "#72f1b8",
+      "gray": "#848bbd",
+      "blue": "#2ee2fa",
+      "red": "#fe4450"
+    }
+  },
+  "github": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#24292f",
+      "yellow": "#bf8700",
+      "green": "#1a7f37",
+      "gray": "#6e7781",
+      "blue": "#0969da",
+      "red": "#cf222e"
+    },
+    "dark": {
+      "background": "#0d1117",
+      "foreground": "#c9d1d9",
+      "yellow": "#d29922",
+      "green": "#238636",
+      "gray": "#8b949e",
+      "blue": "#58a6ff",
+      "red": "#f85149"
+    }
+  },
+  "monochrome": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#000000",
+      "yellow": "#737373",
+      "green": "#404040",
+      "gray": "#a3a3a3",
+      "blue": "#262626",
+      "red": "#171717"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "yellow": "#a3a3a3",
+      "green": "#d4d4d4",
+      "gray": "#525252",
+      "blue": "#e5e5e5",
+      "red": "#f5f5f5"
+    }
+  },
+  "vercel": {
+    "light": {
+      "background": "#FAFAFA",
+      "foreground": "#000000",
+      "yellow": "#F5A623",
+      "green": "#50E3C2",
+      "gray": "#888888",
+      "blue": "#0070F3",
+      "red": "#E00"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#EDEDED",
+      "yellow": "#F5A623",
+      "green": "#50E3C2",
+      "gray": "#888888",
+      "blue": "#0070F3",
+      "red": "#E00"
+    }
+  },
+  "rose-pine": {
+    "light": {
+      "background": "#faf4ed",
+      "foreground": "#575279",
+      "yellow": "#ea9d34",
+      "green": "#286983",
+      "gray": "#9893a5",
+      "blue": "#56949f",
+      "red": "#b4637a"
+    },
+    "dark": {
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "yellow": "#f6c177",
+      "green": "#31748f",
+      "gray": "#908caa",
+      "blue": "#9ccfd8",
+      "red": "#eb6f92"
+    }
+  },
+  "cyberpunk": {
+    "light": {
+      "background": "#fdfdfd",
+      "foreground": "#050505",
+      "yellow": "#ffb000",
+      "green": "#00e600",
+      "gray": "#555555",
+      "blue": "#00b3ff",
+      "red": "#ff003c"
+    },
+    "dark": {
+      "background": "#0d0221",
+      "foreground": "#0ff",
+      "yellow": "#f9e900",
+      "green": "#39ff14",
+      "gray": "#261447",
+      "blue": "#00f0ff",
+      "red": "#ff003c"
     }
   }
 }

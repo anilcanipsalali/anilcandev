@@ -29,7 +29,9 @@
 - **GitHub integration** — live project list pulled from the GitHub API
 - **Weather** — real-time weather for any city via `wttr.in`
 - **Quotes** — random inspirational quotes via a server-side proxy
-- **Theme system** — multiple color themes (Nord, Dracula, Gruvbox, Monokai, Solarized…)
+- **Theme system** — switch multiple color themes on the fly dynamically (Nord, Dracula, Gruvbox, Monokai, Solarized…)
+- **Inline Calculator** — automatically calculate simple math expressions (e.g. `10 * 5`)
+- **Ascii Art** — generate beautiful ascii art from text on the fly
 - **Dark/Light mode** — automatically follows your system preference
 - **Responsive** — works on mobile and desktop
 - **Docker-ready** — multi-stage optimized production image
@@ -48,6 +50,9 @@
 | `linkedin` | Open LinkedIn profile |
 | `google <query>` | Search Google |
 | `weather <city>` | Show weather for a city |
+| `theme <name>` | Change the current theme dynamically |
+| `mode <light\|dark>` | Switch between light and dark mode |
+| `ascii <text>` | Generate ascii art from text |
 | `quote` | Display a random quote |
 | `whoami` | Display current user |
 | `echo <text>` | Print text |
@@ -117,9 +122,9 @@ All personal information is managed through [`config.json`](./config.json):
 ### Themes
 
 Additional themes are available in [`themes.json`](./themes.json):
-`default` · `gruvbox` · `dracula` · `Nord` · `Monokai` · `Mocha` · `Solarized` · `Paraiso`
+`default` · `nord` · `catppuccin` · `tokyonight` · `synthwave` · `github` · `monochrome` · `vercel` · `rose-pine` · `cyberpunk`
 
-To apply a theme, copy the desired color palette into the `colors` field of `config.json`.
+You can change themes instantly by typing `theme <name>` (e.g. `theme cyberpunk`) in the terminal. You can also manually switch between dark and light modes using `mode dark` or `mode light`. The selections are automatically saved to your browser's local storage.
 
 ## Docker
 
